@@ -1,22 +1,4 @@
-.body {
-    background-image: url("https://static.pexels.com/photos/24347/pexels-photo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    min-height: 400px;
-}
-
-.body2 {
-    background-image: url("https://static.pexels.com/photos/24347/pexels-photo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    min-height: 400px;
-}
-
-.body3 {
+.road {
     background-image: url("https://static.pexels.com/photos/24347/pexels-photo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,87 +8,107 @@
 }
 
 .header {
-	color: white;
-	margin-top: 3em;
-	margin-bottom: 5em;
-	margin-left: 2em;
-	font-size: 40px;
-	justify-content: left;
-	max-width: auto;
-
+    color: white;
+    font-size: 40px;
+    display: block;
+    margin: 1em;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    float: left;
+    text-shadow: 2px 2px gray;
 }
 
 .header2 {
-	color: white;
-	margin-top: 3em;
-	margin-bottom: 5em;
-	margin-left: 2em;
-	font-size: 24px;
-	justify-content: center;
-	max-width: auto;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    margin: 1em;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    float: left;
+    text-shadow: 2px 2px gray;
 }
 
 .header3 {
-	color: white;
-	margin-top: 3em;
-	margin-bottom: 5em;
-	margin-left: 2em;
-	font-size: 12px;
-	justify-content: center;
-	max-width: auto;
+    color: orange;
+    margin: 0px;
+    margin: 1em;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    float: left;
 }
 
 .aboutme {
-	color: white;
-	max-width: auto;
+    color: white;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 0px;
     justify-content: center;
     font-family: 'Candal', sans-serif;
 }
 
+.aboutme p {
+    font-size: 13px;
+}
+
+.aboutme h1 {
+  text-shadow: 2px 2px gray;
+  font-size: 36px;
+  padding-bottom: 1em;
+}
+
+
 .aboutme2 {
-	color: white;
-	max-width: auto;
+    color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 0px;
     justify-content: center;
     font-family: 'Candal', sans-serif;
 }
 
 .aboutme3 {
-	color: white;
-	max-width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    justify-content: center;
-    font-family: 'Candal', sans-serif;
+    color: white;
+    /* max-width: 35em; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: auto; */
+    /* text-align: center; */
+    /* font-family: 'Candal', sans-serif; */
 }
 
+
 .projects {
-	color: white;
-	max-width: auto;
+    color: white;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     justify-content: center;
+    text-shadow: 2px 2px gray;
 }
 
 .projects2 {
-	color: white;
-	max-width: auto;
+    color: white;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     justify-content: center;
+    text-shadow: 2px 2px gray;
 }
 
 .projects3 {
-	color: white;
-	max-width: auto;
+    color: white;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -114,217 +116,183 @@
 }
 
 .contact {
-	color: white;
-	max-width: auto;
+    color: white;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    justify-content: center;
+    text-align: center;
 }
+
+.contact h1 {
+    text-shadow: 2px 2px 5px teal;
+}
+
 
 .footer {
-	color: white;
-	max-width: auto;
+    color: yellow;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    justify-content: center;
+    text-align: center;
 }
 
-@media only screen and (min-width: 800 max-width: 1280px) {
-    .body {
-        padding: 7em 0;
-        background-size: cover;
-    }
-
-    .body2 {
-        display: none;
-    }
-
-    .body3 {
-        display: none;
-    }
-    .header {
-        font-size: 3em;
-        display: none;
-    }
-
-    .header2 {
-        display: none;
-    }
-
-    .header3 {
-        display: none;
-    }
-
-    .aboutme {
-      padding: 3em;
-      font-size: 12
-    }
-
-    .aboutme2 {
-    	display: none;
-    }
-
-    .aboutme3 {
-    	display: none;
-    }
-
-    .projects {
-
-    }
-
-    .projects2 {
-    	display: none;
-    }
-
-    .projects3 {
-    	display: none;
-    }
-
-    .contact {
-
-    }
-
-    .footer {
-
-    }
+.footer h3 {
+    font-style: oblique;
 }
 
-@media only screen and (min-width: 640 max-width: 800px) {
-    .body2 {
-        
-        background-size: cover;
-    }
 
-    .body3 {
-        display: none;
-    }
 
-    .body {
-        display: none;
-    }
-    .header2 {
-        font-size: 3em;
-        display: none;
-    }
+@media only screen and (max-width: 1280px) {
 
-    .header3 {
-        font-size: 3em;
-        display: none;
-    }
-
-    .header {
-        font-size: 3em;
-        display: none;
-    }
-
-    .aboutme2 {
-      
-      font-size: 12px;
-    }
-
-    .aboutme3 {
-      display: none;
-    }
-
-    .aboutme {
-      display: none;
-    }
-
-    .projects2 {
-
-    }
-
-    .projects3 {
-    	display: none;
-    }
-
-    .projects {
-    	display: none;
-    }
-
-    .contact {
-
-    }
-
-    .footer {
-
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    
-	.body3 {
-        padding: 0em;
-        background-size: 100% 100%;
-        font-size: 12px;
-    }
-
-    .body {
-        display: none;
-    }
-
-    .body2 {
-        display: none;
-    }
-
-    
-
-    }
-    
-    .header3 {
-    	font-size: 1em;
-    	color: white;
-    	text-align: center;
-    	padding: 1em;
-    }
-
-    .header {
-        
-        display: none;
-    }
-
-    .header2 {
-    	display: none;  
-
-    }	
-    
-    .aboutme3 {
-      padding: 3em;
-      font-size: 12px;
+    .header, .header h1 {
       color: white;
+      font-size: 60px;
+      display: block;
+      margin: 1em;
     }
-    
-
+    .header2 {
+      display: none;
+    }
+    .header3 {
+      display: none;
+    }
     .aboutme {
-    	display: none;
+      padding: 3em;
+      font-size: 28px;
     }
-
+    .aboutme h1 {
+      font-size: 28px;
+    }
+    .aboutme p {
+      font-size: 20px;
+    }
     .aboutme2 {
       display: none;
+    }
+    .aboutme3 {
+        display: none;
+    }
+    .projects {
+      display: block;
+      text-align: center;
+      background-size: cover;
+    }
+    .projects h1 {
+        font-size: 28px;
+    }
+    .projects2 {
+      display: none;
+    }
+    .projects3 {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .body2 {
+      background-size: cover;
+    }
+    .body3 {
+      display: none;
+    }
+    .header {
+      display: none;
+    }
+    .header2, .header2 h1 {
+      display: block;
+    }
+    .header3 {
+      display: none;
+    }
+    .aboutme {
+      display: none;
+    }    
+    .aboutme2 {
+      display: block;
+      font-size: 18px;
+    }
+    .aboutme2, h1 {
+        text-shadow: 2px 2px gray;
+        font-size: 28px;
+    }
+    .aboutme2, p {
+        font-size: 18px;
+        text-shadow: none;
+    }
+    .aboutme3 {
+      display: none;
+    }
+    .projects {
+      display: none;
+    }  
+    .projects2 {
+      display: block;
+      text-align: center;
       
     }
-
+    .projects2 h1 {
+        font-size: 28px;
+    }
     .projects3 {
-
+        display: none;
     }
+}
 
-    .projects {
-    	display: none;
+@media only screen and (max-width: 480px) {
+
+    .header {
+        display: none;
     }
-
-    .projects2 {
-    	display: none;
-    }
-
     
-
-    .contact {
-
+    .header2 {
+        display: none;  
     }
+    .header3, .header3 h1 {
+       font-size: 40px;
+       color: white;
+       text-align: center;
+       padding: 0px;
+       display: block;
+       margin: 0px;
+       text-shadow: 2px 2px gray;
+       font-family: 
+    }
+    .aboutme {
+        display: none;
+    }
+    .aboutme2 {
+      display: none;
+    }   
+    .aboutme3, .aboutme3 h1 {
+      padding: 1.5em;
+      font-size: 1.5em;
+      color: white;
+      display: block;
+      padding-top: 5em;
+      text-align: center;
+      text-shadow: 2px 2px gray;
+    }
+    .aboutme3 ul {
+        text-align: left;
+        text-shadow: none;
+    }
+    .projects {
+        display: none;
+    }
+    .projects2 {
+        display: none;
+    }
+    .projects3 {
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+        text-shadow: 2px 2px gray;
 
-    .footer {
+        
+
 
     }
 }
